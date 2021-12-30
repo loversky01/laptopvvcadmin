@@ -1,6 +1,6 @@
 <!-- Xử lý đơn hàng -->
 <?php  
-		$data = file_get_contents('http://localhost/testAPIWP/order_xuly.php');
+		$data = file_get_contents('https://laptopvvc-admin.herokuapp.com/order_xuly.php');
 		$data = json_decode($data, true);
 	?>
 

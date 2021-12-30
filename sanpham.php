@@ -6,7 +6,7 @@
 ?>
 
 <?php  
-		$data = file_get_contents('http://localhost/testAPIWP/sampham_xuly.php');
+		$data = file_get_contents('https://laptopvvc-admin.herokuapp.com/sampham_xuly.php');
 		$data = json_decode($data, true);
 	?>
     
